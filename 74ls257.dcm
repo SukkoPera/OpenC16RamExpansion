@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS257
+D Quad 2 to 1 Multiplexer [Sukko's]
+K TTL MUX MUX2
+$ENDCMP
+#
+#End Doc Library

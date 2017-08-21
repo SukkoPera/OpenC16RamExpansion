@@ -1,4 +1,4 @@
-update=Sat 12 Aug 2017 15:42:16 CEST
+update=lun 21 ago 2017 00:53:11 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=4464
+LibName32=C16-Exp-Port

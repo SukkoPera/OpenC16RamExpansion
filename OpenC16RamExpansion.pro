@@ -1,4 +1,4 @@
-update=lun 21 ago 2017 00:53:11 CEST
+update=dom 07 gen 2018 13:44:10 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=4464
 LibName32=C16-Exp-Port
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

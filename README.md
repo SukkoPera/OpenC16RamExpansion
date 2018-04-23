@@ -8,5 +8,8 @@ The board fits the cartridge/expansion port and instantly gives a C16 64 kilobyt
 
 There were [several similar expansions](http://plus4world.powweb.com/hardware) back in the day, but I have never seen one in real life. Thus, I designed this board only by looking at [various C16/Plus/4 schematics](http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/plus4/index.html) and images (mostly low-resolution) of similar boards I found on the Net, which I have included in the [doc](https://github.com/SukkoPera/OpenC16RamExpansion/tree/master/doc/) directory.
 
+## NOTE: AT THE MOMENT THIS EXPANSION DOES **NOT** WORK ON EVERY C16.
+We are trying to figure out the ultimate causes of this, but we haven't come to a final conclusion yet. So **USE AT YOUR OWN RISK**!
+
 ### License
 OpenC16RamExpansion is Open Hardware.

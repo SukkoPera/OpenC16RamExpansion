@@ -2,7 +2,7 @@
 # OpenC16RamExpansion
 OpenC16RamExpansion is an Open Hardware 64 Kb RAM Expansion board for the Commodore 16.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/OpenC16RamExpansion/master/doc/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/OpenC16RamExpansion/master/img/render-top.png)
 
 ## Summary
 The board fits the cartridge/expansion port and, in theory, it should instantly give a C16 64 kilobytes of RAM. Unfortunately, the reality is quite different since the C16 was deliberately designed not to be easily expandable, so that the larger RAM would be a selling point of the Plus/4.
@@ -32,6 +32,12 @@ PRINT PEEK 16484
 If you get **anything else than 42**, then the expansion is working correctly. If you get 42, it is not (that would mean the "second" 16kB of RAM are a replica of the first 16kB).
 
 If you are using a [LittleSixteen V3 board](https://github.com/SukkoPera/LittleSixteen), there is no need to perform any modification, as it is already built-in.
+
+
+## Releases
+If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/OpenC16RamExpansion/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
+
+Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
 
 ## License
 The OpenC16RamExpansion documentation, including the design itself, is copyright &copy; SukkoPera 2019-2021 and is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

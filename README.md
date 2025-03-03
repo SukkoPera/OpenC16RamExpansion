@@ -7,7 +7,7 @@ OpenC16RamExpansion is an Open Hardware 64 Kb RAM Expansion board for the Commod
 ## Summary
 The board fits the cartridge/expansion port and, in theory, it should instantly give a C16 64 kilobytes of RAM. Unfortunately, the reality is quite different since the C16 was deliberately designed not to be easily expandable, so that the larger RAM would be a selling point of the Plus/4.
 
-This must have been a long-debated feature, since half of the job is done while the other half is missing. In particular, the /RAS, /CAS and R/W signals that are needed to control RAM chips have been brought to the cartridge slot and these cannot actually serve many other purposes. On the other hand, there is no way to disable the internal RAM when an expansion is plugged in the cartridge slot which means that both RAMs will fight for the bus, amounting to a disasterous effect. 
+This must have been a long-debated feature, since half of the job is done while the other half is missing. In particular, the /RAS, /CAS and MUX signals that are needed to control RAM chips have been brought to the cartridge slot and these cannot actually serve many other purposes. On the other hand, there is no way to disable the internal RAM when an expansion is plugged in the cartridge slot which means that both RAMs will fight for the bus, amounting to a disasterous effect. 
 
 ## So What!?
 Old expansions used to come with instructions saying how to disable the internal RAM, which was usually obtained by barbarically cutting the power pins altogether. This had the obvious side effect that at that point the machine could ONLY work with the external expansion plugged in, preventing the use of [other cartridges](https://github.com/SukkoPera/OpenC16Cart) (not that many were made, but what about a [SID Card](https://github.com/SukkoPera/ReSeed) or a [User Port Card](https://github.com/SukkoPera/16up)?).
@@ -19,8 +19,8 @@ Since both these things are quite likely to damage the - already precarious - in
 1. Connect pin Z of the expansion slot to pin 11 of U12 with a wire.
 2. Disconnect pin 1 of U5 and U6 from the mainboard.
 3. Connect pin 13 of U12 to pin 1 of U5 and U6.
-4. Solder a 10k resistor between pin 12 and pin 14 of U12.
-5. Blob together pins 12 and 13 of U12.
+4. Blob together pins 12 and 13 of U12.
+5. Solder a 10k resistor between that blob and pin 14 of U12.
 
 This will disable the internal RAM whenever pin Z on the expansion connector is grounded. This is already done on OpenC16RamExpansion but it should be easy to modify any old cart this way.
 

@@ -16,10 +16,10 @@ Other boards had output transistors that would somehow "overpower" the outputs o
 
 Since both these things are quite likely to damage the - already precarious - internals of your C16, I didn't even think about replicating them. Instead, I have come up with a not-too-hard modification implementing the missing half of the job that Commodore left to be desired. It can be carried out on all C16s in order to let them work with both the internal or external RAM when plugged in. **If you want to use this Expansion, you will have to perform the following modification**:
 
-1. Connect pin Z of the expansion slot to pin 11 of U12 with a wire.
-2. Disconnect pin 1 of U5 and U6 from the mainboard.
-3. Connect pin 13 of U12 to pin 1 of U5 and U6.
-4. Blob together pins 12 and 13 of U12.
+1. Disconnect pin 1 of U5 and U6 from the mainboard.
+2. Connect pin 13 of U12 to pin 1 of U5 and U6.
+3. Blob together pins 11 and 12 of U12.
+4. Connect pin Z of the expansion slot to that blob with a wire.
 5. Solder a 10k resistor between that blob and pin 14 of U12.
 
 This will disable the internal RAM whenever pin Z on the expansion connector is grounded. This is already done on OpenC16RamExpansion but it should be easy to modify any old cart this way.

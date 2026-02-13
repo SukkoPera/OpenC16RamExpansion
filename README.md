@@ -55,7 +55,7 @@ Also, if you still have to register, [you can use this link](https://www.pcbway.
 
 You can also buy me a coffee if you want:
 
-<a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Credits
 This board was laid out only by looking at [various C16/Plus/4 schematics](http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/plus4/index.html) and pictures (mostly low-resolution) of [similar expansions from back in the day](http://plus4world.powweb.com/hardware) I found on the Net, I have never seen one in real life:
